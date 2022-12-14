@@ -16,7 +16,7 @@ import { AlbumModule } from './album/album.module';
       envFilePath: `.${process.env.NODE_ENV}.env`,
     }),
     PrismaModule,
-    // AuthModule,
+    AuthModule,
     ArtistModule,
     AlbumModule,
   ],
